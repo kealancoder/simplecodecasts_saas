@@ -11,9 +11,9 @@ group :production do
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.3'
-#Use bootstrap library for styles
+# Use bootstrap library for styles
 gem 'bootstrap-sass', '3.3.1'
-#Use font awesome library for icons
+# Use font awesome library for icons
 gem 'font-awesome-sass', '4.2.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '1.3.0'
@@ -31,14 +31,12 @@ gem 'jbuilder', '2.0'
 gem 'sdoc', '0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
-
+# Use devise for user auth
 gem 'devise', '3.4.1'
 # Use stripe for handling payments
 gem 'stripe', '1.16.1'
-
-#Use figaro to hide secret keys
+# Use figaro to hide secret keys
 gem 'figaro', '1.0.0'
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
 # Use unicorn as the app server
